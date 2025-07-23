@@ -1,0 +1,10 @@
+title: Youla Lee Tech Blog
+description: Youla Lee Tech Blog
+show_downloads: false
+google_analytics: 
+
+theme: jekyll-theme-minimal
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
