@@ -6,6 +6,6 @@ categories: [life]
 tags: [jekyll, github-pages]
 ---
 
-# Hello! Welcome to my blog. 🍋
+<!-- # Hello! Welcome to my blog. 🍋 -->
 
 my first post ⭐
