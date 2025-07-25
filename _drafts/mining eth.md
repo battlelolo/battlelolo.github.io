@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "hello world"
-date: 2025-05-01
-categories: [life]
+title: "Mining ETH with my laptop in 2021"
+date: 2025-07-25
+categories: [blockchain]
 tags: [jekyll, github-pages]
 ---
 
