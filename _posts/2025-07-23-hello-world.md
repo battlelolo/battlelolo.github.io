@@ -10,6 +10,14 @@ tags: [jekyll, github-pages]
 
 my first post ⭐
 
+
+```javascript
+const hello = "world";
+function greet() {
+    console.log(`Hello, ${hello}!`);
+}
+```
+
 ---
 
 ## 📌 Navigation
