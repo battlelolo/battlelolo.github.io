@@ -6,6 +6,21 @@ categories: [life]
 tags: [jekyll, github-pages]
 ---
 
-<!-- # Hello! Welcome to my blog. 🍋 -->
+# hello world
 
 my first post ⭐
+
+---
+
+## 📌 Navigation
+- [← All Posts](/posts)
+- [🏠 Home](/)
+<!-- - [📧 Contact](/contact) -->
+
+{% if page.previous %}
+**Previous:** [{{ page.previous.title }}]({{ page.previous.url }})
+{% endif %}
+
+{% if page.next %}
+**Next:** [{{ page.next.title }}]({{ page.next.url }})
+{% endif %}
