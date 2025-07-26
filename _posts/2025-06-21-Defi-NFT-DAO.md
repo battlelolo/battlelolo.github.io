@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "DeFi, NFT, and DAO Explained Simply"
-date: 2025-07-02
+date: 2025-06-21
 categories: [blockchain]
 tags: [defi, nft, dao, web3, blockchain-basics]
 ---
