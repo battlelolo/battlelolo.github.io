@@ -4,7 +4,6 @@ title: "TRON NASDAQ Listed: Justin Sun's Next Move?"
 date: 2025-07-26
 categories: [blockchain]
 tags: [tron, nasdaq, justin-sun]
-# excerpt: "Spotted TRON trending on Twitter. Turns out they went NASDAQ through reverse merger. Classic Justin Sun."
 ---
 
 # TRON NASDAQ Listed: Justin Sun's Next Move?

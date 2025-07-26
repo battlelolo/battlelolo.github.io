@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Blockchain Interview Questions: 20 Must-Know Technical Questions for 2025</title>
+    
+    <!-- Plausible Analytics -->
+    <script defer data-domain="battlelolo.github.io" src="https://plausible.io/js/script.js"></script>
+    
+    <link rel="stylesheet" href="/assets/css/style.css?v=943c28389cae1ff9971a0a2664eab29891c2c8b9">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">Youla Lee</a></h1>
+        <p>Youla Lee Tech Blog</p>
+      </header>
+      <section>
+        <h1 id="blockchain-interview-questions-20-must-know-technical-questions-for-2025">Blockchain Interview Questions: 20 Must-Know Technical Questions for 2025</h1>
+
+<p>As someone getting interested in blockchain careers, I decided to compile the most common technical interview questions that keep showing up. Here’s what you need to know.</p>
+
+<h2 id="blockchain-fundamentals">Blockchain Fundamentals</h2>
+
+<h3 id="1-what-is-blockchain-technology">1. What is blockchain technology?</h3>
+
+<p><strong>Answer:</strong> Blockchain is a distributed ledger technology that maintains a continuously growing list of records (blocks) linked using cryptography. Each block contains a hash of the previous block, timestamp, and transaction data. The key characteristics are decentralization, immutability, and transparency.</p>
+
+<p><strong>What interviewers want:</strong> Understanding of core concepts and real-world applications.</p>
+
+<h3 id="2-explain-the-difference-between-centralized-and-decentralized-systems">2. Explain the difference between centralized and decentralized systems</h3>
+
+<p><strong>Answer:</strong> Centralized systems have a single point of control (like traditional banks), while decentralized systems distribute control across multiple nodes. Decentralized systems offer better security, censorship resistance, and eliminate single points of failure, but may have slower transaction speeds.</p>
+
+<h3 id="3-what-is-a-hash-function-and-why-is-it-important-in-blockchain">3. What is a hash function and why is it important in blockchain?</h3>
+
+<p><strong>Answer:</strong> A hash function takes input data and produces a fixed-size string of characters. In blockchain, it ensures data integrity - even a tiny change in input produces a completely different hash. Bitcoin uses SHA-256, which creates unique fingerprints for each block.</p>
+
+<h3 id="4-describe-how-merkle-trees-work">4. Describe how Merkle trees work</h3>
+
+<p><strong>Answer:</strong> Merkle trees are binary tree structures where leaf nodes represent transaction hashes, and each parent node contains the hash of its children. The root hash represents all transactions in a block, allowing efficient verification without downloading the entire block.</p>
+
+<h3 id="5-compare-proof-of-work-vs-proof-of-stake">5. Compare Proof of Work vs Proof of Stake</h3>
+
+<p><strong>Answer:</strong> PoW requires miners to solve computational puzzles (like Bitcoin), consuming significant energy. PoS selects validators based on their stake in the network (like Ethereum 2.0), offering better energy efficiency and scalability while maintaining security.</p>
+
+<h2 id="ethereum--smart-contracts">Ethereum &amp; Smart Contracts</h2>
+
+<h3 id="6-what-are-smart-contracts">6. What are smart contracts?</h3>
+
+<p><strong>Answer:</strong> Smart contracts are self-executing contracts with terms directly written into code. They automatically execute when predetermined conditions are met, eliminating the need for intermediaries. Ethereum popularized this concept using Solidity programming language.</p>
+
+<h3 id="7-explain-gas-fees-in-ethereum">7. Explain gas fees in Ethereum</h3>
+
+<p><strong>Answer:</strong> Gas fees are payments made to compensate for the computational energy required to process transactions on Ethereum. Gas price fluctuates based on network demand. Each operation costs a specific amount of gas, preventing infinite loops and spam attacks.</p>
+
+<h3 id="8-how-does-the-ethereum-virtual-machine-evm-work">8. How does the Ethereum Virtual Machine (EVM) work?</h3>
+
+<p><strong>Answer:</strong> EVM is a runtime environment for smart contracts on Ethereum. It’s a stack-based virtual machine that executes bytecode compiled from high-level languages like Solidity. Every Ethereum node runs the EVM to maintain consensus.</p>
+
+<h3 id="9-whats-the-difference-between-erc-20-and-erc-721-tokens">9. What’s the difference between ERC-20 and ERC-721 tokens?</h3>
+
+<p><strong>Answer:</strong> ERC-20 defines fungible tokens where each token is identical (like cryptocurrencies). ERC-721 defines non-fungible tokens (NFTs) where each token is unique and cannot be exchanged on a one-to-one basis.</p>
+
+<h3 id="10-explain-the-concept-of-oracles-in-blockchain">10. Explain the concept of oracles in blockchain</h3>
+
+<p><strong>Answer:</strong> Oracles are third-party services that provide external data to smart contracts. Since blockchains can’t access off-chain data directly, oracles bridge this gap. Examples include price feeds, weather data, or sports results.</p>
+
+<h2 id="defi-and-advanced-concepts">DeFi and Advanced Concepts</h2>
+
+<h3 id="11-what-is-defi-and-how-does-it-differ-from-traditional-finance">11. What is DeFi and how does it differ from traditional finance?</h3>
+
+<p><strong>Answer:</strong> Decentralized Finance (DeFi) recreates traditional financial services using blockchain technology without intermediaries. Unlike traditional finance, DeFi operates 24/7, offers global access, and provides transparency through open-source code.</p>
+
+<h3 id="12-explain-automated-market-makers-amm">12. Explain Automated Market Makers (AMM)</h3>
+
+<p><strong>Answer:</strong> AMMs are decentralized exchanges that use mathematical formulas to price assets instead of order books. Liquidity providers deposit token pairs into pools, and traders swap against these pools. Uniswap’s x*y=k formula is the most common.</p>
+
+<h3 id="13-what-is-impermanent-loss">13. What is impermanent loss?</h3>
+
+<p><strong>Answer:</strong> Impermanent loss occurs when providing liquidity to AMM pools. If token prices change relative to each other, the value of your pool tokens may be less than simply holding the tokens. It’s “impermanent” because it only becomes permanent when you withdraw.</p>
+
+<h3 id="14-describe-liquidity-pools-and-yield-farming">14. Describe liquidity pools and yield farming</h3>
+
+<p><strong>Answer:</strong> Liquidity pools are collections of funds locked in smart contracts to facilitate trading. Yield farming involves providing liquidity to earn rewards (trading fees + governance tokens). Farmers often move funds between pools to maximize returns.</p>
+
+<h2 id="security-and-technical-implementation">Security and Technical Implementation</h2>
+
+<h3 id="15-what-are-common-smart-contract-vulnerabilities">15. What are common smart contract vulnerabilities?</h3>
+
+<p><strong>Answer:</strong> Key vulnerabilities include reentrancy attacks (calling external contracts), integer overflow/underflow, access control issues, and front-running. The DAO hack (2016) and recent DeFi exploits demonstrate the importance of security audits.</p>
+
+<h3 id="16-explain-the-51-attack">16. Explain the 51% attack</h3>
+
+<p><strong>Answer:</strong> A 51% attack occurs when a single entity controls more than half of a blockchain network’s mining power or stake. This allows them to potentially reverse transactions, double-spend, or prevent new transactions from confirming.</p>
+
+<h3 id="17-whats-the-difference-between-private-and-public-keys">17. What’s the difference between private and public keys?</h3>
+
+<p><strong>Answer:</strong> Public keys are shareable addresses that others use to send you cryptocurrency. Private keys are secret codes that prove ownership and allow spending. Private keys mathematically generate public keys, but not vice versa.</p>
+
+<h3 id="18-how-do-multi-signature-wallets-work">18. How do multi-signature wallets work?</h3>
+
+<p><strong>Answer:</strong> Multi-sig wallets require multiple private keys to authorize transactions. For example, a 2-of-3 wallet needs any two out of three designated keys to sign. This provides enhanced security for organizations and individuals managing large amounts.</p>
+
+<h2 id="practical-experience-questions">Practical Experience Questions</h2>
+
+<h3 id="19-what-dapps-have-you-used-and-what-was-your-experience">19. What DApps have you used and what was your experience?</h3>
+
+<p><strong>Sample Answer:</strong> “I’ve used Uniswap for token swaps, experienced high gas fees during network congestion, and learned about slippage tolerance. I’ve also tried Compound for lending, which taught me about interest rate mechanics in DeFi.”</p>
+
+<h3 id="20-where-do-you-see-blockchain-technology-heading-in-the-next-2-3-years">20. Where do you see blockchain technology heading in the next 2-3 years?</h3>
+
+<p><strong>Sample Answer:</strong> “I see improved scalability through Layer 2 solutions, increased institutional adoption, better user experience with account abstraction, and more real-world applications in supply chain and identity verification.”</p>
+
+<h2 id="interview-preparation-tips">Interview Preparation Tips</h2>
+
+<p><strong>Technical Preparation:</strong></p>
+<ul>
+  <li>Build a simple DApp project</li>
+  <li>Deploy a smart contract on testnet</li>
+  <li>Understand gas optimization techniques</li>
+  <li>Read recent protocol documentation</li>
+</ul>
+
+<p><strong>Soft Skills:</strong></p>
+<ul>
+  <li>Stay updated with industry news</li>
+  <li>Join blockchain communities</li>
+  <li>Contribute to open-source projects</li>
+  <li>Practice explaining complex concepts simply</li>
+</ul>
+
+<p><strong>Portfolio Projects:</strong></p>
+<ul>
+  <li>ERC-20 token implementation</li>
+  <li>Simple DEX or lending protocol</li>
+  <li>NFT marketplace</li>
+  <li>Cross-chain bridge concept</li>
+</ul>
+
+<hr />
+
+<h2 id="-navigation">📌 Navigation</h2>
+<ul>
+  <li><a href="/posts">← All Posts</a></li>
+  <li><a href="/">🏠 Home</a>
+<!-- - [📧 Contact](/contact) --></li>
+</ul>
+
+<p><strong>Previous:</strong> <a href="/2025/05/01/hello-world/">hello world</a></p>
+
+<p><strong>Next:</strong> <a href="/2025/07/25/i-mined-ETH-in-2021/">I Mined ETH in 2021, and Here’s Why You Probably Shouldn’t</a></p>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/battlelolo">battlelolo</a></p>
+        
+      </footer>
+    </div>
+  </body>
+</html>
