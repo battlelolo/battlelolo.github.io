@@ -16,7 +16,7 @@ Scrolling Twitter when "TRON listing" hit trending topics. Clicked to see what's
 
 TRX trading volume jumped 36%+ after the news.
 
-
+<img src="{{ site.baseurl }}/assets/images/2025/07/20250726-02.webp" alt="JS" class="img-center" width="200">
 
 ## Justin Sun's Greatest Hits
 
@@ -46,8 +46,6 @@ Renounced Chinese citizenship for Saint Kitts and Nevis passport. Strategic move
 With TRON now on NASDAQ, I'm genuinely curious what Justin Sun's next big move will be.
 
 The guy never fails to surprise the crypto world with his unconventional approach. Love him or hate him, he keeps things interesting.
-
-<img src="{{ site.baseurl }}/assets/images/2025/07/20250726-01.png" alt="JS" class="img-center" width="200">
 
 ---
 
