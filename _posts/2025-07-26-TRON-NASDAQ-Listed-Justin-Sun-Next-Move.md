@@ -14,8 +14,6 @@ Scrolling Twitter when "TRON listing" hit trending topics. Clicked to see what's
 
 **Turns out:** TRON officially listed on NASDAQ through reverse merger with SRM Entertainment. Justin Sun rang the opening bell himself in July 2025.
 
-<img src="{{ site.baseurl }}/assets/images/2025/07/20250726-02.webp" alt="JS Nasdaq" class="img-center">
-
 TRX trading volume jumped 36%+ after the news.
 
 

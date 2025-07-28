@@ -145,8 +145,6 @@ Blockchain isn't magic - it's just a really clever way to keep shared records wi
 
 Think of it as **democracy for data**: everyone gets a vote, majority rules, and the history is permanent.
 
-Next time someone asks about blockchain, try the village ledger story. Much better than diving into cryptographic hash functions, right?
-
 ---
 
 ## 📌 Navigation

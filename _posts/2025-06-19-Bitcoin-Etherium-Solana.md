@@ -224,14 +224,6 @@ Like having a synchronized clock for the entire network. Orders transactions by 
 
 **Reality:** All three will likely coexist, serving different purposes in the broader blockchain ecosystem.
 
-## Bottom Line
-
-Think of it like transportation:
-- **Bitcoin:** Armored truck (secure value transport)
-- **Ethereum:** City bus system (versatile, everyone uses it)
-- **Solana:** Sports car (fast, flashy, for specific needs)
-
-Each serves a purpose. The question isn't which one will "win" - it's understanding what each does best.
 
 ---
 

@@ -89,8 +89,6 @@ A smart contract is used to link a specific digital file and its owner's informa
 
 While DeFi, NFTs, and DAOs may seem like separate concepts, they are often intertwined and create synergies. For example, a DAO could govern a DeFi protocol that allows you to take out a loan using an NFT as collateral. These three are the core building blocks of the new internet being built on blockchain technology: **Web3**.
 
-You now understand the major players in the blockchain world. Congratulations on taking a huge step toward becoming an expert!
-
 ---
 
 ## 📌 Navigation
