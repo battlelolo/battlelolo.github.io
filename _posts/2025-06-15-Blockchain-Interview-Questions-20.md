@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blockchain Interview Questions: 20 Must-Know Technical Questions for 2025"
-date: 2025-06-15 10:00:00 +0900
+date: 2025-06-15
 categories: [blockchain]
 tags: [interview, blockchain, career, technical-questions, job-preparation]
 excerpt: "Getting interested in blockchain careers, I compiled the most common technical interview questions with expected answers."
