@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Building a TTS Tool for My Friend in One Hour</title>
+    
+    <!-- Plausible Analytics -->
+    <script defer data-domain="battlelolo.github.io" src="https://plausible.io/js/script.js"></script>
+    
+    <link rel="stylesheet" href="/assets/css/style.css?v=818e93b688e13f4c35a47140634754e6052bea8f">
+  </head>
+  <body>
+    <div class="wrapper">
+      
+      <section>
+        <h1 id="building-a-tts-tool-for-my-friend-in-one-hour">Building a TTS Tool for My Friend in One Hour</h1>
+
+<h2 id="the-ask">The Ask</h2>
+
+<p>My friend asked if there was a service that could read academic papers aloud - not like NotebookLM which creates podcast-style summaries, but something that would actually read the original text. She wanted to listen to papers like audiobooks when her eyes got tired.</p>
+
+<p>I didn’t know of such a service, but since I’m familiar with Microsoft Azure Language Services, I offered to help: “Send me the paper and I’ll make mp3 for you.”</p>
+
+<h2 id="the-reality-check">The Reality Check</h2>
+
+<p>I thought this would be simple:</p>
+<ol>
+  <li>Extract text from PDF using Claude/ChatGPT/Grok</li>
+  <li>Run it through Azure TTS (Text to Speech)</li>
+  <li>Done!</li>
+</ol>
+
+<p>Wrong. Academic PDFs are messy. Extract text and you get dozens of co-author names, chart numbers, table data, footnotes - everything my friend didn’t want to hear.</p>
+
+<p>I tried asking different AIs to extract only title, abstract, and main content:</p>
+<ul>
+  <li>Claude Sonnet: Failed</li>
+  <li>Grok: Failed with errors</li>
+  <li>Claude Opus: Success</li>
+</ul>
+
+<p>Turns out extracting clean content from academic PDFs is harder than expected.</p>
+
+<h2 id="from-manual-to-automated">From Manual to Automated</h2>
+
+<p>I generated the MP3 using Azure TTS and made a tutorial video. But a week later, my friend was still hunting for paid PDF-to-speech services.</p>
+
+<p>That’s when I realized: I might not know the perfect PDF-to-text AI, but I can definitely build a basic TTS web app.</p>
+
+<p>So I coded one with Claude Sonnet, built it in Next.js, deployed on Vercel, and shared it.</p>
+
+<p>This is why I love being able to code!!!</p>
+
+<p><img src="/assets/images/2025/08/20250815.png" alt="tts" class="img-center" /></p>
+
+<hr />
+
+<h2 id="-navigation">📌 Navigation</h2>
+<ul>
+  <li><a href="/posts">← All Posts</a></li>
+  <li><a href="/">🏠 Home</a>
+<!-- - [📧 Contact](/contact) --></li>
+</ul>
+
+<p><strong>Previous:</strong> <a href="/2025/07/26/TRON-NASDAQ-Listed-Justin-Sun-Next-Move-copy/">TRON NASDAQ Listed: Justin Sun’s Next Move?</a></p>
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/battlelolo">battlelolo</a></p>
+        
+      </footer>
+    </div>
+  </body>
+</html>
