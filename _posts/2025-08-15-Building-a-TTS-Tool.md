@@ -40,12 +40,10 @@ So I coded one with Claude Sonnet, built it in Next.js, deployed on Vercel, and 
 
 This is why I love being able to code!!!
 
-<img src="{{ site.baseurl }}/assets/images/2025/08/20250815.png" alt="JS Banana" class="img-center">
+<img src="{{ site.baseurl }}/assets/images/2025/08/20250815.png" alt="tts" class="img-center">
 
-FYI - Sharing code I used for this service.
-
-```javascript
-'use client';
+FYI - Sharing code I used for this service:
+jsx'use client';
 
 import { useState } from 'react';
 
