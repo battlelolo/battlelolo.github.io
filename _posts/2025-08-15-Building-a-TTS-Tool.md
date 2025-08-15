@@ -8,6 +8,8 @@ tags: [tts, microsoft, ai, text to speech, azure]
 
 # Building a TTS Tool for My Friend in One Hour
 
+<img src="{{ site.baseurl }}/assets/images/2025/08/20250815.png" alt="tts" class="img-center">
+
 ## The Ask
 
 My friend asked if there was a service that could read academic papers aloud - not like NotebookLM which creates podcast-style summaries, but something that would actually read the original text. She wanted to listen to papers like audiobooks when her eyes got tired.
@@ -39,8 +41,6 @@ That's when I realized: I might not know the perfect PDF-to-text AI, but I can d
 So I coded one with Claude Sonnet, built it in Next.js, deployed on Vercel, and shared it.
 
 This is why I love being able to code!!!
-
-<img src="{{ site.baseurl }}/assets/images/2025/08/20250815.png" alt="tts" class="img-center">
 
 ---
 
