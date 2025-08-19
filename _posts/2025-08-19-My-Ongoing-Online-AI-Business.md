@@ -32,7 +32,7 @@ As someone who invests in US stocks, I often need to listen to speeches by the U
 
 So I built it - a tool that provides real-time speech recognition and simultaneous interpretation for over an hour. I named it "PEPEGO," inspired by Naver's Papago, with a penguin face as the logo.
 
-<img src="{{ site.baseurl }}/assets/images/2025/08/20250819.png" alt="logo" class="img-center" style="width: 25%;">
+<img src="{{ site.baseurl }}/assets/images/2025/08/20250819.png" alt="logo" class="img-center" style="width: 30%;">
 
 This was my first time implementing payment functionality with my business registration, which came with many challenges. To add payment features to a web app, you need approval from payment platforms.
 
