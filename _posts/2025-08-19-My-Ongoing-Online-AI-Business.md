@@ -8,7 +8,7 @@ tags: [ai, aipepego, speechtranslation, pepego, microsoft, lemonsqueezy, tosspay
 
 # My Ongoing Online AI Business: The Story of AI PEPEGO
 
-Following my series on failed ventures, I'd like to introduce you to my "decent" business.
+Following my series on failed ventures, I'd like to introduce you to my "ongoing" business.
 
 <a href="https://www.aipepego.xyz" target="_blank">https://www.aipepego.xyz</a>
 
