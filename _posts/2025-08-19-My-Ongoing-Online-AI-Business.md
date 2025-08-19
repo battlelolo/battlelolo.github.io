@@ -10,9 +10,9 @@ tags: [ai, aipepego, speechtranslation, pepego, microsoft, lemonsqueezy, tosspay
 
 Following my series on failed ventures, I'd like to introduce you to my "decent" business.
 
-www.aipepego.xyz
+<a href="https://www.aipepego.xyz" target="_blank">https://www.aipepego.xyz</a>
 
-[add img]
+<img src="{{ site.baseurl }}/assets/images/2025/08/20250819-1.png" alt="aipepego" class="img-center">
 
 When I started building this product, honestly, no one around me thought I could make money from it. Nobody believed people would actually pay for this service.
 
