@@ -7,6 +7,8 @@ tags: [dApp, ETH, crypto, blockchain, web3]
 ---
 # I Created a DApp: Building a Kapibara Token Faucet
 
+<img src="{{ site.baseurl }}/assets/images/2025/08/20250801.png" alt="kdt" class="img-center">
+
 ## Introduction: Why I Built This Project
 
 As a developer diving into the Web3 ecosystem, I wanted to get hands-on experience with the entire blockchain development stack. What better way to learn than by creating something both fun and functional? Enter the **kapibara Developer Token (KDT) Faucet** - a project that combines my love for these chill animals with practical Web3 development skills.
