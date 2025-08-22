@@ -22,7 +22,10 @@ It all began with my own frustration. As a non-native English speaker who uses E
 
 The biggest problem with existing free AI translation tools (Google Translate, DeepL, Naver Papago) was that they would lose track after recognizing and translating just a few sentences when dealing with longer speeches. While they work fine for short conversations - like talking to a foreigner - they become useless for lengthy content like foreign language lectures or speeches.
 
-[add img and yt contents link]
+<img src="{{ site.baseurl }}/assets/images/2025/08/20250819-2.png" alt="aipepego" class="img-center">
+
+<a href="https://youtu.be/CfrYWpi-dzU?si=DW6a8liOT6bCnPXr" target="_blank">https://youtu.be/CfrYWpi-dzU?si=DW6a8liOT6bCnPXr</a>
+
 
 Recent LLM models can do speech recognition, but they don't provide real-time translation. Or when they do speech recognition, they tend to ignore what you're saying when responding.
 
@@ -38,7 +41,7 @@ This was my first time implementing payment functionality with my business regis
 
 First, I needed a Korean business registration. For payment methods, I eventually integrated LemonSqueezy and Toss Pay. I also applied for KakaoPay in the middle of development, but since it was taking longer than expected, I went with Toss Pay, which only took a few days. I planned to add KakaoPay later, but due to various circumstances, I never did.
 
-[add img]
+<img src="{{ site.baseurl }}/assets/images/2025/08/20250819-3.png" alt="aipepego" class="img-center">
 
 ## Marketing and Results
 
